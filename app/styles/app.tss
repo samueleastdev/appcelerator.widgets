@@ -65,8 +65,6 @@
 	height: Titanium.UI.FILL
 }
 
-
-
 ".NavBarTitleBarRightBtn":{
 	right: 0,
 	width: 60,
@@ -78,6 +76,6 @@
 	color: "#fff",
 	font: {
 		fontFamily: "icomoon",
-		fontSize: 28
+		fontSize: 18
 	}
 }
