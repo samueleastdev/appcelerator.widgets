@@ -7,8 +7,8 @@
 					<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
 						<ImageView width="20" image="/images/back.png" />
 					</View>
-					<Label class="NavBarTitleBarLabel">Fake NavBar</Label>
-					<Label class="NavBarTitleBarLabelPrompt">Full crossplatform control in app.tss</Label>
+					<Label class="NavBarTitleBarLabel">Loader</Label>
+					<Label class="NavBarTitleBarLabelPrompt">Loader will quit after 20 seconds</Label>
 				</View>
 			</View>
 		</View>

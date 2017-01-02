@@ -3,7 +3,7 @@ var args = $.args;
 
 // Setup the image array
 var imgs = [];
-for (var i = 0; i < 121; i++) {
+for (var i = 1; i < 121; i++) {
 	imgs.push(WPATH("/images/Layer-" + i + ".png"));
 };
 $.loadingImages.images = imgs;

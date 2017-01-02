@@ -16,18 +16,18 @@
 	backgroundColor: '#000',
 	width: Alloy.Globals.Device.width,
 	height: Alloy.Globals.Device.height,
-	opacity: 0 
+	opacity: 0
 }
 
 ".alertView":{
 	backgroundColor: '#fff',
-	width: 120,
-	height: 120,
+	width: 80,
+	height: 80,
 	zIndex: 999,
 	borderRadius: 10
 }
 
 ".loadingImages": {
-	width: 120,
+	width: Titanium.UI.FILL,
 	duration: 60
 }
