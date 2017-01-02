@@ -1,18 +1,17 @@
 <Alloy>
-	<Window id="Window" class="container">
-		<View class="NavBar">
-			<View platform="ios" class="NavBarStatusBar"/>
-			<View class="NavBarTitleBar">
-				<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
-					<ImageView width="20" image="/images/dummy.png" />
-				</View>
-				<Label class="NavBarTitleBarLabel">Fake NavBar</Label>
-				<Label class="NavBarTitleBarLabelPrompt">Full crossplatform control in app.tss</Label>
-				<View onClick="rightClick" class="NavBarTitleBarRightBtn" id="NavBarTitleBarRightBtn">
-					<ImageView width="20" image="/images/dummy.png" />
+	<Window id="Window">
+		<View class="Stacked">
+			<View class="NavBar">
+				<View platform="ios" class="NavBarStatusBar"/>
+				<View class="NavBarTitleBar">
+					<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
+						<ImageView width="20" image="/images/back.png" />
+					</View>
+					<Label class="NavBarTitleBarLabel">Fake NavBar</Label>
+					<Label class="NavBarTitleBarLabelPrompt">Full crossplatform control in app.tss</Label>
 				</View>
 			</View>
 		</View>
-		<Widget id="SamuelEastDevLoader" src="sobytes.loading"/> 
+		<Widget id="SamuelEastDevLoader" src="samueleastdev.simple.image.loader"/> 
 	</Window>
 </Alloy>

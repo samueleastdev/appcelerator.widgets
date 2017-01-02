@@ -1,4 +1,3 @@
 "#Window": {
-	layout: "vertical",
 	backgroundColor: "white"
 }

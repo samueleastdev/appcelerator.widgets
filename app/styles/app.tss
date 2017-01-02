@@ -1,5 +1,10 @@
 "Window":{
-	statusBarStyle: Titanium.UI.iOS.StatusBar.LIGHT_CONTENT
+	statusBarStyle: Titanium.UI.iOS.StatusBar.LIGHT_CONTENT,
+	backgroundColor: "white"
+}
+
+".Stacked":{
+	layout: "vertical"
 }
 
 /* main navbar styles */
