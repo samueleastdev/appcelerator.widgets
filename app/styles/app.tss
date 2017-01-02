@@ -40,7 +40,16 @@
 ".NavBarTitleBarLabel":{
 	color: "#fff",
 	font: {
-		fontSize: 22,
+		fontSize: 18,
+		fontFamily: Alloy.Globals.Brand.font
+	}
+}
+
+".NavBarTitleBarLabelPrompt":{
+	bottom: 5,
+	color: "#fff",
+	font: {
+		fontSize: 12,
 		fontFamily: Alloy.Globals.Brand.font
 	}
 }
