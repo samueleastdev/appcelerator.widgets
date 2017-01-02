@@ -1,2 +1,3 @@
 # Useful Appcelerator Widgets
-Appcelerator Widgets Samuel East
+Created By Samuel East
+* [Contact me](http://samueleast.co.uk/) - Website
