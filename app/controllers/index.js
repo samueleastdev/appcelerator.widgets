@@ -1,5 +1,7 @@
-function doClick(e) {
-    alert($.label.text);
+function doClick(_event) {
+
+	console.log("click event", _event.source.controller);
+
 }
 
 $.index.open();

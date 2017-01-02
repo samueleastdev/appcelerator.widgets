@@ -1,3 +1,8 @@
 <Alloy>
-	<Label>I'm the default widget</Label>
+	<View class="loadingWindow" id="loadingWindow">
+		<View class="alertTransparentBackground" id="alertTransparentBackground" />
+		<View class="alertView" id="alertView">
+			<ImageView id="loadingImages" class="loadingImages" />
+		</View>
+	</View>
 </Alloy>

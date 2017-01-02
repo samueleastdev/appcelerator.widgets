@@ -1,5 +1,9 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<TableView id="table" onClick="doClick">
+            <TableViewSection id="TableViewSection" headerTitle="Samuel East Widgets">
+                <TableViewRow controller="loader" title="Simple Image Loader"/>
+            </TableViewSection>
+        </TableView>
 	</Window>
 </Alloy>
