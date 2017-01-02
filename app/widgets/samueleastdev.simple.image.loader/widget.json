@@ -1,0 +1,13 @@
+{
+	"id": "samueleastdev.simple.image.loader",
+	"name": "samueleastdev.simple.image.loader",
+	"description" : "This widget is a simple ui activity loader that i use in my app Shake locate happy to share",
+	"author": "Samuel East",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"loader,activity,ui,images",
+	"platforms":"android,ios"
+}
