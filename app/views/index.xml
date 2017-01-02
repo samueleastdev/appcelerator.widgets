@@ -1,9 +1,21 @@
 <Alloy>
-	<Window class="container">
-		<TableView id="table" onClick="doClick">
-            <TableViewSection id="TableViewSection" headerTitle="Samuel East Widgets">
-                <TableViewRow controller="loader" title="Simple Image Loader"/>
-            </TableViewSection>
-        </TableView>
+	<Window id="Window">
+		<View class="NavBar">
+			<View platform="ios" class="NavBarStatusBar"/>
+			<View class="NavBarTitleBar">
+				<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
+					<ImageView width="20" image="/images/dummy.png" />
+				</View>
+				<Label class="NavBarTitleBarLabel">Fake NavBar</Label>
+				<View onClick="rightClick" class="NavBarTitleBarRightBtn" id="NavBarTitleBarRightBtn">
+					<ImageView width="20" image="/images/dummy.png" />
+				</View>
+			</View>
+		</View>
+		<TableView onClick="openController">
+			<TableViewSection id="TableViewSection" headerTitle="Samuel East Widgets">
+				<TableViewRow controller="loader" title="Simple Image Loader"/>
+			</TableViewSection>
+		</TableView>
 	</Window>
 </Alloy>

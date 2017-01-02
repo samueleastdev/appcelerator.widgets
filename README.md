@@ -1,5 +1,5 @@
 # Useful Appcelerator Widgets
-Created By Samuel East
+Created By Samuel East please support and contribute
 * [Contact me](http://samueleast.co.uk/) - Website
 
 ## Current Widgets

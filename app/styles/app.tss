@@ -1,26 +1,67 @@
-/*
-
-This is your global styles file. Selectors and rules you define
-here will be applied throughout your app. However, these rules
-have the lowest priority of any style settings.
-
-For more information, see the "Style Priorities" section of
-http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
-
-For example, the following would apply to all labels, windows,
-and text fields (depending on platform) in your app unless you
-overrode the settings with other TSS, XML, or JS settings:
-
-'Label[platform=android,windows]': {
-	color: '#000' // all platforms except Android and Windows default to black
+"Window":{
+	statusBarStyle: Titanium.UI.iOS.StatusBar.LIGHT_CONTENT
 }
 
-'Window': {
-	backgroundColor: '#fff' // white background instead of default transparent or black
+/* main navbar styles */
+".NavBar":{
+	layout: "vertical",
+	top: 0,
+	width: Alloy.Globals.Device.width,
+	backgroundColor: "#222"
 }
 
-'TextField[platform=android]': {
-	height: Ti.UI.SIZE
+".NavBar[platform=ios]":{
+	height: Titanium.UI.SIZE,
+	zIndex: 9999,
+	clipMode:Titanium.UI.iOS.CLIP_MODE_DISABLED,
+	viewShadowColor: "#888",
+	viewShadowRadius: 2,
+	viewShadowOffset: {
+		x: 0,
+		y: 1
+	}
 }
 
-*/
+".NavBar[platform=android]":{
+	height: Titanium.UI.SIZE,
+	elevation: 10
+}
+
+".NavBarStatusBar":{
+	width: Alloy.Globals.Device.width,
+	height: 20
+}
+
+".NavBarTitleBar":{
+	width: Alloy.Globals.Device.width,
+	height: 60
+}
+
+".NavBarTitleBarLabel":{
+	color: "#fff",
+	font: {
+		fontSize: 22,
+		fontFamily: Alloy.Globals.Brand.font
+	}
+}
+
+".NavBarTitleBarLeftBtn":{
+	left: 0,
+	width: 60,
+	height: Titanium.UI.FILL
+}
+
+".NavBarTitleBarRightBtn":{
+	right: 0,
+	width: 60,
+	height: Titanium.UI.FILL
+}
+
+".NavBarTitleBarBtnLabel":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontFamily: "AvenirLTStd-Light"
+	}
+}
