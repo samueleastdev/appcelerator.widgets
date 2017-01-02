@@ -9,6 +9,7 @@
     "os:mobileweb": {},
     "os:windows": {},
     "dependencies": {
-        "samueleastdev.simple.image.loader": "1.0"
+        "samueleastdev.simple.image.loader": "1.0",
+        "samueleastdev.crossplatorm.picker": "1.0"
     }
 }

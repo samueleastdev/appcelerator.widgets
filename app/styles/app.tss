@@ -65,6 +65,8 @@
 	height: Titanium.UI.FILL
 }
 
+
+
 ".NavBarTitleBarRightBtn":{
 	right: 0,
 	width: 60,
@@ -75,7 +77,7 @@
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	color: "#fff",
 	font: {
-		fontSize: 14,
-		fontFamily: "AvenirLTStd-Light"
+		fontFamily: "icomoon",
+		fontSize: 28
 	}
 }

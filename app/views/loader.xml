@@ -5,13 +5,13 @@
 				<View platform="ios" class="NavBarStatusBar"/>
 				<View class="NavBarTitleBar">
 					<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
-						<ImageView width="20" image="/images/back.png" />
+						<Label class="NavBarTitleBarBtnLabel" text="\uea43" />
 					</View>
 					<Label class="NavBarTitleBarLabel">Loader</Label>
 					<Label class="NavBarTitleBarLabelPrompt">Loader will quit after 20 seconds</Label>
 				</View>
 			</View>
 		</View>
-		<Widget id="SamuelEastDevLoader" src="samueleastdev.simple.image.loader"/> 
+		<Widget id="SamuelEastDevLoader" src="samueleastdev.simple.image.loader"/>
 	</Window>
 </Alloy>

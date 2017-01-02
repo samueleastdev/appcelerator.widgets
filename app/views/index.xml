@@ -5,12 +5,12 @@
 				<View platform="ios" class="NavBarStatusBar"/>
 				<View class="NavBarTitleBar">
 					<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
-						<ImageView width="20" image="/images/dummy.png" />
+						<Label class="NavBarTitleBarBtnLabel" text="\uea69" />
 					</View>
 					<Label class="NavBarTitleBarLabel">Fake NavBar</Label>
 					<Label class="NavBarTitleBarLabelPrompt">Full crossplatform control in app.tss</Label>
 					<View onClick="rightClick" class="NavBarTitleBarRightBtn" id="NavBarTitleBarRightBtn">
-						<ImageView width="20" image="/images/dummy.png" />
+						<Label class="NavBarTitleBarBtnLabel" text="\uea6a" />
 					</View>
 				</View>
 			</View>
