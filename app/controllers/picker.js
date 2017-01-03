@@ -16,6 +16,8 @@ function leftClick(_event) {
 function plain() {
 
 	var Picker = Alloy.createWidget('samueleastdev.crossplatorm.picker', 'widget', {
+		title : "Plain Picker",
+		subtitle : "Example of a plain picker",
 		type : Titanium.UI.PICKER_TYPE_PLAIN,
 		values : [{
 			title : "male",
@@ -27,7 +29,7 @@ function plain() {
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-			
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
@@ -40,17 +42,19 @@ function plain() {
 function time() {
 
 	var Picker = Alloy.createWidget('samueleastdev.crossplatorm.picker', 'widget', {
+		title : "Time Picker",
+		subtitle : "Example of a Time picker",
 		type : Titanium.UI.PICKER_TYPE_TIME,
 		values : null,
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-			
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
 	});
-	
+
 	$.Window.add(Picker.dialogBoxWidget);
 
 }
@@ -58,17 +62,19 @@ function time() {
 function date() {
 
 	var Picker = Alloy.createWidget('samueleastdev.crossplatorm.picker', 'widget', {
+		title : "Date Picker",
+		subtitle : "Example of a Date picker",
 		type : Titanium.UI.PICKER_TYPE_DATE,
 		values : null,
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-			
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
 	});
-	
+
 	$.Window.add(Picker.dialogBoxWidget);
 
 }
@@ -76,17 +82,19 @@ function date() {
 function dateandtime() {
 
 	var Picker = Alloy.createWidget('samueleastdev.crossplatorm.picker', 'widget', {
+		title : "Date & Time Picker",
+		subtitle : "Example of a Date & Time picker",
 		type : Titanium.UI.PICKER_TYPE_DATE_AND_TIME,
 		values : null,
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-			
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
 	});
-	
+
 	$.Window.add(Picker.dialogBoxWidget);
 
 }
@@ -94,17 +102,19 @@ function dateandtime() {
 function countdown() {
 
 	var Picker = Alloy.createWidget('samueleastdev.crossplatorm.picker', 'widget', {
+		title : "Countdown Picker",
+		subtitle : "Example of a Countdown picker",
 		type : Titanium.UI.PICKER_TYPE_COUNT_DOWN_TIMER,
 		values : null,
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-			
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
 	});
-	
+
 	$.Window.add(Picker.dialogBoxWidget);
 
 }
