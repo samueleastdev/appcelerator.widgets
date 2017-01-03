@@ -82,7 +82,7 @@
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	color: "#fff",
 	font: {
-		fontFamily: "icomoon",
+		fontFamily: "samueleastdev",
 		fontSize: 18
 	}
 }
