@@ -1,3 +1,17 @@
 <Alloy>
-	<Label>I'm the default widget</Label>
+	<View id="dialogBoxWidget">
+		<View id="dimmedBackground"/>
+		<View id="dialogBox" layout="vertical">
+			<Label id="dialogBoxTitleLabel"/>
+			<View id="dialogBorder"></View>
+			<Label id="dialogBoxLabel"/>
+			<View id="dialogPicker"></View> 
+			<View class="dialogBorderBottom" backgroundColor="#e6e6e6"></View>
+			<View class="dialogButtons">
+				<View class="dialogHBorder"></View>
+				<Label class="dialogBoxButton" id="dialogBoxButton1"/>
+				<Label class="dialogBoxButton" id="dialogBoxButton2"/>
+			</View>
+		</View>
+	</View>
 </Alloy>

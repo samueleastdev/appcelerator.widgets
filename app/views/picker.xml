@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="Window">
+		<View class="Stacked">
+			<View class="NavBar">
+				<View platform="ios" class="NavBarStatusBar"/>
+				<View class="NavBarTitleBar">
+					<View onClick="leftClick" class="NavBarTitleBarLeftBtn" id="NavBarTitleBarLeftBtn">
+						<Label class="NavBarTitleBarBtnLabel" text="arrow-left2" />
+					</View>
+					<Label class="NavBarTitleBarLabel">Picker</Label>
+					<Label class="NavBarTitleBarLabelPrompt">Crossplatform picker</Label>
+				</View>
+			</View>
+			<View layout="vertical" top="40">
+				<Button onClick="plain">Plain</Button>
+				<Button onClick="time">Time</Button>
+				<Button onClick="date">Date</Button>
+				<Button onClick="dateandtime">Date and Time</Button>
+				<Button onClick="countdown">Countdown</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

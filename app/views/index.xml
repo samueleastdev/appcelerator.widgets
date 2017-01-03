@@ -17,6 +17,7 @@
 			<TableView onClick="openController">
 				<TableViewSection id="TableViewSection" headerTitle="Samuel East Widgets">
 					<TableViewRow controller="loader" title="Simple Image Loader"/>
+					<TableViewRow controller="picker" title="Crossplatform Picker"/>
 				</TableViewSection>
 			</TableView>
 		</View>
