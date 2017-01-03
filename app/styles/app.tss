@@ -1,6 +1,13 @@
 "Window":{
-	statusBarStyle: Titanium.UI.iOS.StatusBar.LIGHT_CONTENT,
 	backgroundColor: "white"
+}
+
+"Window[platform=ios]":{
+	statusBarStyle: Titanium.UI.iOS.StatusBar.LIGHT_CONTENT
+}
+
+"Window[platform=android]":{
+	orientationModes: Alloy.Globals.Device.orientation
 }
 
 ".Stacked":{
