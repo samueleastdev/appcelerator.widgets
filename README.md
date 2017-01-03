@@ -8,6 +8,8 @@ Created By Samuel East please support and contribute
 
 ### Icons are setup using icon moon 
 
+Add the generated fonts to the assets/iphone/fonts and assets/android/fonts folders
+
 * [Icon moon fonts](https://icomoon.io/app/#/select/font)
 
 ### Simple enter the unicode as follows
