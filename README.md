@@ -9,7 +9,7 @@ Created By Samuel East please support and contribute
 
 ### Icons are setup using icon moon 
 
-Add the generated fonts to the assets/iphone/fonts and assets/android/fonts folders
+Add only the generated ttf font to the assets/fonts 
 
 * [Icon moon fonts](https://icomoon.io/app/#/select/font)
 
