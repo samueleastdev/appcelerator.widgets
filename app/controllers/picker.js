@@ -30,6 +30,8 @@ function plain() {
 
 			console.log("_response", _response);
 
+			alert(JSON.stringify(_response));
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
@@ -50,6 +52,8 @@ function time() {
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
+
+			alert(JSON.stringify(_response));
 
 			$.Window.remove(Picker.dialogBoxWidget);
 
@@ -72,6 +76,8 @@ function date() {
 
 			console.log("_response", _response);
 
+			alert(JSON.stringify(_response));
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
@@ -93,6 +99,8 @@ function dateandtime() {
 
 			console.log("_response", _response);
 
+			alert(JSON.stringify(_response));
+
 			$.Window.remove(Picker.dialogBoxWidget);
 
 		}
@@ -112,6 +120,8 @@ function countdown() {
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
+
+			alert(JSON.stringify(_response));
 
 			$.Window.remove(Picker.dialogBoxWidget);
 

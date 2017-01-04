@@ -168,7 +168,7 @@ if (OS_IOS) {
 				text : args.values[i].title,
 				color : "black",
 				font : {
-					fontSize : 16,
+					fontSize : 80,
 					fontFamily : "Avenir-Book"
 				},
 				width : Ti.UI.FILL,
