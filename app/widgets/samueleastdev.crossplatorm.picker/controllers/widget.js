@@ -28,6 +28,11 @@ if (OS_ANDROID) {
 		defaultPickerAndroid.addEventListener("click", function(_event) {
 
 			if (_event.cancel) {
+
+				loaded_callback({
+					success : false
+				});
+
 				return;
 			}
 
@@ -54,6 +59,10 @@ if (OS_ANDROID) {
 			callback : function(_event) {
 				if (_event.cancel) {
 
+					loaded_callback({
+						success : false
+					});
+
 				} else {
 
 					loaded_callback({
@@ -76,6 +85,10 @@ if (OS_ANDROID) {
 			value : args.setValue,
 			callback : function(_event) {
 				if (_event.cancel) {
+
+					loaded_callback({
+						success : false
+					});
 
 				} else {
 
@@ -101,6 +114,10 @@ if (OS_ANDROID) {
 
 				var date = _event.value;
 				if (_event.cancel) {
+
+					loaded_callback({
+						success : false
+					});
 
 				} else {
 
