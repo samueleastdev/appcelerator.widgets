@@ -5,6 +5,7 @@ Created By Samuel East please support and contribute
 ## Current Widgets
 
 * [Simple Image Loader](https://github.com/samueleastdev/appcelerator.widgets/tree/master/app/widgets/samueleastdev.simple.image.loader) - A simple cross platform image loader
+* [Cross Platform Picker](https://github.com/samueleastdev/appcelerator.widgets/tree/master/app/widgets/samueleastdev.crossplatorm.picker) - A cross platform picker date and time etc
 
 ### Icons are setup using icon moon 
 

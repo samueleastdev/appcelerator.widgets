@@ -16,7 +16,7 @@
 				<Button onClick="time">Time</Button>
 				<Button onClick="date">Date</Button>
 				<Button onClick="dateandtime">Date and Time</Button>
-				<Button onClick="countdown">Countdown</Button>
+				<Button onClick="countdown" platform="ios">Countdown</Button>
 			</View>
 		</View>
 	</Window>

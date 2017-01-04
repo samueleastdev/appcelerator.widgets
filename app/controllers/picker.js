@@ -45,6 +45,7 @@ function time() {
 		title : "Time Picker",
 		subtitle : "Example of a Time picker",
 		type : Titanium.UI.PICKER_TYPE_TIME,
+		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
 
@@ -65,6 +66,7 @@ function date() {
 		title : "Date Picker",
 		subtitle : "Example of a Date picker",
 		type : Titanium.UI.PICKER_TYPE_DATE,
+		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
 
@@ -85,6 +87,7 @@ function dateandtime() {
 		title : "Date & Time Picker",
 		subtitle : "Example of a Date & Time picker",
 		type : Titanium.UI.PICKER_TYPE_DATE_AND_TIME,
+		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
 

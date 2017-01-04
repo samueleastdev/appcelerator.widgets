@@ -11,19 +11,55 @@ var SamuelEastDevPicker = Ti.UI.createPicker({
 
 if (OS_ANDROID) {
 
+	if (args.type === -1) {
+
+		var androidOpts = [];
+		var options = args.values;
+		for (var i = 0; i < options.length; i++) {
+			androidOpts.push(options[i].title);
+		};
+		androidOpts.push("Cancel");
+		var opts = {
+			options : androidOpts,
+			title : "Select options"
+		};
+		opts.cancel = (opts.options.length - 1);
+		var defaultPickerAndroid = Ti.UI.createOptionDialog(opts);
+		defaultPickerAndroid.addEventListener("click", function(_event) {
+
+			if (_event.cancel) {
+				return;
+			}
+
+			var selectedIndex = _event.source.selectedIndex;
+			var ret = androidOpts[selectedIndex];
+
+			loaded_callback({
+				success : true,
+				value : ret
+			});
+
+		});
+		defaultPickerAndroid.show();
+
+	}
+
 	/*
 	 * Open Titanium.UI.PICKER_TYPE_TIME
 	 */
 	if (args.type === 0) {
 
-		picker.showTimePickerDialog({
-			value : CONFIG.properties.setValue,
+		SamuelEastDevPicker.showTimePickerDialog({
+			value : args.setValue,
 			callback : function(_event) {
 				if (_event.cancel) {
 
 				} else {
 
-					CONFIG.properties.button2.clickEvent(_event.value);
+					loaded_callback({
+						success : true,
+						value : _event.value
+					});
 
 				}
 			}
@@ -36,14 +72,17 @@ if (OS_ANDROID) {
 	 */
 	if (args.type === 1) {
 
-		picker.showDatePickerDialog({
-			value : CONFIG.properties.setValue,
+		SamuelEastDevPicker.showDatePickerDialog({
+			value : args.setValue,
 			callback : function(_event) {
 				if (_event.cancel) {
 
 				} else {
 
-					CONFIG.properties.button2.clickEvent(_event.value);
+					loaded_callback({
+						success : true,
+						value : _event.value
+					});
 
 				}
 			}
@@ -56,7 +95,7 @@ if (OS_ANDROID) {
 	 */
 	if (args.type === 2) {
 
-		picker.showDatePickerDialog({
+		SamuelEastDevPicker.showDatePickerDialog({
 			value : new Date(),
 			callback : function(_event) {
 
@@ -65,7 +104,7 @@ if (OS_ANDROID) {
 
 				} else {
 
-					picker.showTimePickerDialog({
+					SamuelEastDevPicker.showTimePickerDialog({
 						value : new Date(),
 						callback : function(_event) {
 
@@ -75,7 +114,11 @@ if (OS_ANDROID) {
 							} else {
 
 								var datetime = new Date(date.getFullYear(), date.getMonth(), date.getDate(), time.getHours(), time.getMinutes(), time.getSeconds());
-								CONFIG.properties.button2.clickEvent(datetime);
+
+								loaded_callback({
+									success : true,
+									value : datetime
+								});
 
 							}
 						}
