@@ -13,10 +13,10 @@ Add the generated fonts to the assets/iphone/fonts and assets/android/fonts fold
 
 * [Icon moon fonts](https://icomoon.io/app/#/select/font)
 
-### Simple enter the unicode as follows
+### Make sure font ligatures are set when generating the font and simply enter the name as follow
 
 XML:
 
 ```xml
-<Label class="NavBarTitleBarBtnLabel" text="\uea6a" />
+<Label class="NavBarTitleBarBtnLabel" text="pen" />
 ```
