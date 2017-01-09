@@ -1,13 +1,13 @@
 {
 	"id": "samueleastdev.crossplatorm.picker",
 	"name": "samueleastdev.crossplatorm.picker",
-	"description" : "",
-	"author": "",
+	"description" : "A cross platform picker for Appcelerator",
+	"author": "Samuel East",
 	"version": "1.0",
 	"copyright":"Copyright (c) 2017",
 	"license":"Public Domain",
 	"min-alloy-version": "1.0",
 	"min-titanium-version":"2.1",
-	"tags":"",
+	"tags":"picker,widget,android,ios",
 	"platforms":"android,ios"
 }

@@ -92,7 +92,7 @@ function date() {
 
 			$.Window.remove(Picker.dialogBoxWidget);
 
-		}
+		} 
 	});
 
 	$.Window.add(Picker.dialogBoxWidget);
