@@ -4,7 +4,8 @@
 	width: Ti.UI.FILL,
 	backgroundColor: "#000",
 	opacity: 0
-},
+}
+
 "#dialogBox": {
 	top: Alloy.Globals.Device.height,
 	right: 25,
@@ -15,7 +16,8 @@
 	viewShadowColor: "#888",
 	viewShadowOffset: [0, 1],
 	viewShadowRadius: 5
-},
+}
+
 "#dialogBoxTitleLabel": {
 	top: 0,
 	height: 49,
@@ -27,25 +29,28 @@
 		fontSize: 18
 	},
 	text: "Title"
-},
+}
+
 "#dialogBorder":{
 	top: 0,
 	height: 1,
 	width: Titanium.UI.FILL,
 	backgroundColor: "#E2E2E2"
-},
+}
+
 ".dialogBorderBottom":{
 	top: 0,
 	height: 0,
 	width: Titanium.UI.FILL,
 	backgroundColor: "#E2E2E2"
-},
+}
+
 "#dialogBoxLabel": {
 	top: 10,
 	left: 20,
 	right: 20,
 	width: Titanium.UI.FILL,
-	height : 20,
+	height: 20,
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	color: "#3d5059",
 	font: {
@@ -53,36 +58,42 @@
 		fontSize: 14
 	},
 	text: "Some more information here."
-},
+}
+
 "#dialogPicker":{
 	height: 200,
 	width: Titanium.UI.FILL
-},
+}
+
 ".dialogButtons":{
 	top: 0,
 	height: 50,
 	width: Titanium.UI.FILL
-},
+}
+
 ".dialogBoxButton": {
-	height: "50dp",
+	height: 49,
 	width: "50%",
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	font: {
 		fontFamily: "Avenir-Book",
 		fontSize: 14
 	}
-},
+}
+
 ".dialogHBorder":{
-	height: "50dp",
-	width: 0,
+	top: 0,
+	height: 1,
+	width: Titanium.UI.FILL,
 	backgroundColor: "#E2E2E2",
 	zIndex: 2
 }
+
 "#dialogBoxButton1": {
-	top: 0,
+	bottom: 0,
 	left: 0,
 	backgroundColor: "white",
-	height: "50dp",
+	height: 49,
 	width: "50%",
 	text: "Cancel",
 	color: "black",
@@ -90,12 +101,13 @@
 		fontFamily: "Avenir-Book",
 		fontSize: 16
 	}
-},
+}
+
 "#dialogBoxButton2": {
-	top: 0,
+	bottom: 0,
 	right: 0,
 	backgroundColor: "#E2E2E2",
-	height: "50dp",
+	height: 49,
 	width: "50%",
 	text: "Select",
 	color: "white",

@@ -19,6 +19,7 @@ function plain() {
 		title : "Plain Picker",
 		subtitle : "Example of a plain picker",
 		type : Titanium.UI.PICKER_TYPE_PLAIN,
+		primaryBtnBackground : "#ea4c89", 
 		values : [{
 			title : "male",
 			value : 0
@@ -47,6 +48,7 @@ function time() {
 		title : "Time Picker",
 		subtitle : "Example of a Time picker",
 		type : Titanium.UI.PICKER_TYPE_TIME,
+		primaryBtnBackground : "#ea4c89", 
 		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
@@ -76,6 +78,7 @@ function date() {
 		title : "Date Picker",
 		subtitle : "Example of a Date picker",
 		type : Titanium.UI.PICKER_TYPE_DATE,
+		primaryBtnBackground : "#ea4c89", 
 		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
@@ -105,6 +108,7 @@ function dateandtime() {
 		title : "Date & Time Picker",
 		subtitle : "Example of a Date & Time picker",
 		type : Titanium.UI.PICKER_TYPE_DATE_AND_TIME,
+		primaryBtnBackground : "#ea4c89", 
 		setValue : new Date(),
 		values : null,
 		loaded_callback : function(_response) {
@@ -134,6 +138,7 @@ function countdown() {
 		title : "Countdown Picker",
 		subtitle : "Example of a Countdown picker",
 		type : Titanium.UI.PICKER_TYPE_COUNT_DOWN_TIMER,
+		primaryBtnBackground : "#ea4c89", 
 		values : null,
 		loaded_callback : function(_response) {
 

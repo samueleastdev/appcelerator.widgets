@@ -155,6 +155,9 @@ if (OS_IOS) {
 	$.dialogBoxTitleLabel.text = (args.title) ? args.title : "Title";
 	$.dialogBoxLabel.text = (args.subtitle) ? args.subtitle : "More information here";
 
+	// Brand
+	$.dialogBoxButton2.backgroundColor = (args.primaryBtnBackground) ? args.primaryBtnBackground : "#E2E2E2";
+
 	if (args.values && args.values.length > 0) {
 
 		var data = [];
@@ -235,11 +238,14 @@ if (OS_IOS) {
 
 	});
 
-	// Animate the view
 	$.dialogBox.animate(Ti.UI.createAnimation({
 		top : (Alloy.Globals.Device.height / 2) - (370 / 2),
 		duration : 250,
 	}), function(_event) {
+
+		// Animate the view
+		//var animation = require('alloy/animation');
+		//animation.popIn($.dialogBox);
 
 	});
 
