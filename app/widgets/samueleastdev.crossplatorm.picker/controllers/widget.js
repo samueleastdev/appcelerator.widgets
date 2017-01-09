@@ -227,26 +227,18 @@ if (OS_IOS) {
 				success : true,
 				value : (SamuelEastDevPicker.value) ? SamuelEastDevPicker.value : SamuelEastDevPicker.getSelectedRow().data
 			});
-
+ 
 		});
 
 	});
 
 	$.dimmedBackground.animate(Ti.UI.createAnimation({
 		opacity : 0.6,
-	}), function(_event) {
-
-	});
+	}));
 
 	$.dialogBox.animate(Ti.UI.createAnimation({
 		top : (Alloy.Globals.Device.height / 2) - (370 / 2),
 		duration : 250,
-	}), function(_event) {
-
-		// Animate the view
-		//var animation = require('alloy/animation');
-		//animation.popIn($.dialogBox);
-
-	});
+	}));
 
 }
