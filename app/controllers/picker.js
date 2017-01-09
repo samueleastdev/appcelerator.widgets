@@ -52,12 +52,18 @@ function time() {
 		loaded_callback : function(_response) {
 
 			console.log("_response", _response);
-
-			alert(JSON.stringify(_response));
+			
+			if(_response.success){
+				
+				var moment = require('alloy/moment');
+				var value = moment(_response.value).format("dddd, MMMM Do YYYY, h:mm:ss a");
+				alert(value);
+				
+			}
 
 			$.Window.remove(Picker.dialogBoxWidget);
 
-		}
+		} 
 	});
 
 	$.Window.add(Picker.dialogBoxWidget);
@@ -76,7 +82,13 @@ function date() {
 
 			console.log("_response", _response);
 
-			alert(JSON.stringify(_response));
+			if(_response.success){
+				
+				var moment = require('alloy/moment');
+				var value = moment(_response.value).format("dddd, MMMM Do YYYY, h:mm:ss a");
+				alert(value);
+				
+			}
 
 			$.Window.remove(Picker.dialogBoxWidget);
 
@@ -99,7 +111,13 @@ function dateandtime() {
 
 			console.log("_response", _response);
 
-			alert(JSON.stringify(_response));
+			if(_response.success){
+				
+				var moment = require('alloy/moment');
+				var value = moment(_response.value).format("dddd, MMMM Do YYYY, h:mm:ss a");
+				alert(value);
+				
+			}
 
 			$.Window.remove(Picker.dialogBoxWidget);
 
